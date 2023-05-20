@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.robo</title>
+    <style>
+body{ 
+            text-align: center;
+            margin-top: 100px;
+ background: url(robot1.jpg); 
+ background-size: cover; 
+ font-family: 'Oswald',sans-serif; 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    position:relative;
+    left:0%;
+    text-align: antiquewhite;
+}
+.container{
+    width:100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform is linear;
+}
+/*.antenna1{
+    height:1px;
+    width:1px;
+
+
+}
+.antenna1:hover{
+    transform:rotate(120deg)
+}
+.antenna2{
+    height:1px;
+    width:1px;
+
+}
+.antenna2:hover{
+    transform:rotate(120deg)
+}*/
+
+
+.face{
+    margin-bottom: 10px;
+    position: relative;
+    height: 100px;
+    width:150px;
+    border-radius: 10% 10% 1px 1px;
+    background-color: rgb(115, 167, 230);
+    
+}
+.eye1{
+    width:20px;
+    height:20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    top: 50px;
+    left:15px;
+
+}
+.eye1:hover{
+    transform:scale(3)
+}
+.eye2{
+    width:20px;
+    height:20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    top: 50px;
+    right:15px;
+}
+.eye2:hover{
+    transform: scale(3)
+}
+.body{
+    position:relative;
+    height: 150px;
+    width:150px;
+    border-radius: 2px 2px 30% 30%;
+    background-color: rgb(212, 118, 228);
+    
+}
+
+.hand1{
+    position:absolute;
+    width:30px;
+    height:100px;
+    border-radius: 30% 30% 30% 30%;
+    background-color: rgb(216, 226, 148);
+    left:140px;
+    
+}
+.hand1:hover{
+    transform:scale(2)
+}
+.hand2{
+    position:absolute;
+    width:30px;
+    height:100px;
+    border-radius: 30% 30% 30% 30%;
+    background-color: rgb(216, 226, 148);
+    right:140px;
+}
+.hand2:hover{
+    transform:scale(2)
+}
+.leg1{
+    position:absolute;
+    width:40px;
+    height:70px;
+    border-radius: 40% 40% 20% 20%;
+    background-color: rgb(216, 226, 148);
+    left:100px;
+    top: 150px;
+    padding-top:5px;
+    
+}
+.leg1:hover{
+    transform: rotate(45deg)
+}
+.leg2{
+    position:absolute;
+    background-color: rgb(216, 226, 148);
+    right:100px;
+    top: 150px;
+    padding-top: 6px;
+    width:40px;
+    height:70px;
+    border-radius: 50% 50% 20% 20%;
+}
+.leg2:hover{
+    transform: rotate(45deg)
+}
+    </style>
+</head>
+<body>
+    <center>
+     <h2><u> #chitti the Dancing Robot</u></h2>
+     
+     </center>
+    <div class="container"> 
+    <div class="antenna1">
+    <div class="antenna2">
+
+    <div class="robo">
+        <div class="face">
+            <div class="eye1"></div>
+            <div class="eye2"></div></div>
+
+        
+        <div class="body">
+            <div class="hand1"></div>
+            <div class="hand2"></div>
+            <div class="leg1"></div>
+            <div class="leg2"></div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
